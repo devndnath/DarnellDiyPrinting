@@ -1,0 +1,694 @@
+*{
+    padding: 0;
+    margin:0;
+    
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+/* header section */
+.navbar_area{
+    background-color: #3BA4C2;
+    position: relative;
+}
+.search_area{
+    margin-top: 10px;
+}
+.search_area i{
+    margin-left: 10px;
+    margin-top: 8px !important;
+}
+.search_area input{
+    background-color: #2F8898 !important;
+    border-radius: 50px;
+    color:#fff !important;
+    border: none;
+    padding-left: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.search_area input::-webkit-input-placeholder{
+    color:#fff
+}
+.nav_items .nav-link{
+    background-color: #F49333;
+    border-radius: 13px;
+    padding:2px 10px !important;
+    margin-left: 10px;
+    color:#fff;
+    border: 1px solid #fff;
+    font-size: 15px;
+
+}
+
+/* home section Start */
+.home{
+    background: url(../images/Background.jpg);
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    padding-bottom: 320px;  
+    
+    
+    
+}
+    
+    
+.home .title-1{
+    margin-top: 120px;
+    color: white;
+    font-size: 40px;
+}
+.home .title-2{
+    color: white;
+    font-size: 15px;
+    line-height: 0;
+    
+}
+.home .title-3{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    line-height: 1;
+    
+    font-family: 'Cairo';
+    z-index: 999;
+
+
+}
+.home .title-3 span{
+    font-family: 'Ananda';
+    font-size: 80px;
+    color: #F3922B;
+    z-index: 99999;
+    position: relative;
+    line-height: 0.5;
+}
+.home .title-4{
+    color: white;
+    font-size: 100px;
+    line-height: 0.5;
+    
+    
+    font-family: 'Cairo';
+}
+.home .title-5{
+    margin-top: 50px;
+    color: white;
+    font-size: 42px;
+    line-height: 1.2;
+    
+    
+    font-family: 'Cairo';
+}
+.home button{
+    font-family: 'Cairo';
+    font-weight: bold;
+}
+.home .print{
+    background-color: #F3922B;
+    
+}
+/* home section end */
+
+/* partition start */
+
+
+
+.part-body{
+    margin-top: 30px;
+    
+    
+    
+    background: #42B2B1;
+    border-radius: 20px 20px 20px 0px;
+    position: relative;
+    transform: scale(0.9);
+    
+    
+}
+
+.part-body::after{
+    content: '';
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    border-radius: 20px 20px 20px 0px;
+    
+    
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    z-index: -99999;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    
+
+}
+.part-body-a{
+    
+    
+    
+    background: #42B2B1;
+    border-radius: 20px 20px 20px 0px;
+    position: relative;
+    z-index: 9999999;
+    outline: 5px solid white;
+}
+.part-body .number{
+    
+   
+    border-radius: 20px 0px 0px 0px;      
+    
+    padding-left: 10px;
+    
+    
+    
+}
+.part-body .number h1{
+    margin-top: 120px;
+    font-family: 'Cairo';
+    
+    color: white;
+    font-weight: 700;
+    z-index: 999;
+}
+.part-body .detail{
+    padding: 10px;
+    display: inline-block;
+    background: #F5F7F7;
+    height: 100%;
+    border-radius: 20px 20px 20px 0px; 
+    position: relative;  
+    z-index: 999;
+    
+}
+.part-body .detail::after{
+    position:absolute;
+    content: '>';
+    line-height: 1;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    background-color: #F3922B;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    right: -30px;
+    top: 40%;
+    transform: translateY(-50%);
+   
+
+}
+
+.part-body .detail::before{
+    position:absolute;
+    content: '';
+    line-height: 1;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    background-color: white;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    right: -50px;
+    top: 40%;
+    transform: translateY(-50%);
+   
+
+}
+.part-body .detail img{
+    margin-top: 10px;
+    
+}
+.part-body .detail .head{
+    text-align: left;
+    color: #F3922B;
+    font-family: 'Cairo';
+    font-size: 20px;
+    line-height: 1.2;
+    padding-right: 30px;
+}
+.part-body .detail .body{
+    text-align: left;
+    color: #8E868F;
+    font-family: 'Cairo';
+    font-size: 15px;
+}
+.part-body .detail .last{
+    
+    margin-bottom: 30px;
+}
+.part-body .detail .list span {
+    font-family: 'Cairo';
+    font-size: 15px;
+    text-align: left;
+    display: block;
+}
+
+/* partion end */
+
+
+
+/* Ad Part */
+.ad{
+    background: url('../images/printing.jpg');
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    
+    padding: 100px;
+}
+
+
+.ad .ad-body .title{
+    font-family: 'Cairo';
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 18px;
+    font-size: 50pt;
+}
+.ad .ad-body .sub_title{
+    font-family: 'Cairo';
+    font-weight: 700;
+    background-color: #F3922B;
+    padding: 0px 105px 0px 105px;
+    font-size: 20pt;
+    
+    
+    
+}
+.ad .ad-body .hyp{
+
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    
+}
+/* ad part end */
+
+/* tab part Start */
+.tabs{
+    font-family: 'Cairo';
+    
+}
+.tabs ul li a,
+.tabs ul li a:hover{
+    color: black;
+}
+
+/* Tab part End */
+/* Product Part Start */
+.products .product-body p{
+    text-align: justify;
+    font-family: 'Cairo';
+}
+/* Product Part End */
+/* Bestselling Part Start */
+.best-selling .headline{
+    font-family: 'Ananda';
+    font-weight: 600;
+    font-size: 30pt;
+    color: #F3922B;
+    display: block;
+}
+
+.best-selling .sell-body .sub-head{
+    
+    
+    font-weight: 900;
+    font-size: 70pt;
+    line-height: 0.7;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #45B1B1;
+    z-index: 999999;
+    display: block;
+    position: relative;
+    top: -80px;
+    
+}
+.best-selling .sell-body .sub-head::after{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 2pt;
+    background-color: #F3922B;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+    
+}
+.best-selling .sell-body{
+    line-height: 0;
+    background-color: #F5F7F7;
+    border-radius: 20px;
+    
+    z-index: 9999;
+}
+
+.best-selling .sell-body p{
+    text-align: center;
+    color:#F3922B;   
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Cairo';
+   
+    
+}
+
+
+
+/* Bestselling Pat End */
+
+/* Our Memeber Start */
+.member{
+    background-color: #EEF8FA;
+    position: relative;
+    top: 30px;
+    
+    
+    
+    
+}
+
+
+ .member-title{
+    font-size: 30pt;
+    font-family: 'Ananda';
+    font-weight: 600;
+    color: #F3922B;
+    margin-bottom: 10px;
+    position: relative;
+}
+ .member-title::after{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2pt;
+    background-color: #F3922B;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    
+    
+}
+.member .top{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Cairo';
+    color: #4AD2E8;
+}
+.member .bottom{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Cairo';
+    color: #F3922B;
+}
+.member .member-img{
+    position: absolute;
+    z-index: 999;
+    left: 30%;
+    transform: translateX(-50%);
+}
+.get-in-touch{
+    
+    background: #F5F7F7;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    position: absolute;
+    right: 15%;
+    top: -40px;
+    z-index: 999;
+    
+}
+.get-in-touch .heading{
+    font-size: 20px;
+    color: #1ABCD4;
+    font-family: 'Cairo';
+    font-weight: 800;
+
+    
+}
+.after{
+    height: 50vh;
+    
+    position: relative;
+    overflow: hidden;
+
+}
+.after::after{
+    content: '';
+    position: absolute;
+    top: 50px;
+    transform:translateX(-50%) rotate(3deg);
+    height: 90%;
+    width: 2000%;
+    background-color: #EEF8FA;
+
+    
+    overflow-x: hidden !important;
+}
+/* Our Member end */
+/* social media */
+.social-media{
+    background-color: #F5F7F7;
+    
+}
+.social-media a{
+    font-family: 'Cairo';
+    font-size: 11px;
+    font-weight: bold;
+    
+    
+}
+/* footer */
+.footer{
+    background: #196E7E;
+}
+.footer span{
+    font-family: 'Cairo';
+    font-size: 20px;
+    color:white;
+}
+
+/* RESOUCE SECTION -------------------------------------------*/
+.res_head h1{
+      
+    background-color: #3BA4C2;
+    color:#F69628;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.top_img img{
+    width: 100%;
+    height: 90vh;
+    margin-top: 40px;
+}
+.res_text{
+    position: relative;
+}
+.res_text .good{
+    position: absolute;
+    background-image: url('../images/good.jpeg');
+    width: 50px;
+    height: 33px;
+    background-repeat: no-repeat;
+    left: 12%;
+    z-index: -9999;
+}
+.res_text .better{
+    position: absolute;
+    background-image: url('../images/better.jpeg');
+    width: 50px;
+    height: 33px;
+    background-repeat: no-repeat;
+    top: 22%;
+    left: 10%;
+    z-index: -9999;
+}
+.res_text .best{
+    position: absolute;
+    background-image: url('../images/best.jpeg');
+    width: 70px;
+    height: 40px;
+    background-repeat: no-repeat;
+    top:35% ;
+    left: 4%;
+    z-index: -9999;
+}
+.res_text h2{
+    color:#F69628;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.res_text p{
+    text-align: center;
+    color: #8E8F91;
+    font-family: 'Cairo';
+}
+
+/* who we are section-------------------------------------- */
+
+.image{
+    float: left;
+    
+}
+.who_we_are h1{
+    
+    background-color: #3BA4C2;
+    color:#F69628;
+    padding: 5px 0;
+}
+.image{
+    float: left;
+    
+}
+
+
+
+/* media object section */
+.img_contant{
+    
+    width: 250px;
+    height: 220px;
+    background: #F1EBE9;
+}
+.img_contant .set_img{
+    width: 220px;
+    height: 190px;
+    background: #DADFE6;
+    /* justify-content: center; */
+    outline: 1px solid #81B3DF;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.set_img img{
+    
+    width: 180px;
+    height: 180px;
+    margin-top: 5px;
+
+}
+.set_img h1{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.we_main p{
+    margin-top: 10px;
+    
+    font-size: 21px;
+    color: #ABABAA;
+    margin-bottom: 0px;
+    font-family: 'Cairo';
+}
+.who_we_are h2{
+    margin: 20px 0;  
+    color:#F69628;
+    padding: 5px 0;
+    font-weight: 700 !important; 
+}
+.who_we_are .after_effect{
+    margin: 40px 0;
+}
+.who_we_are .after_effect::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #13ADC6;
+    margin-top: -20px !important;
+    display:block;
+}
+.who_we_are .after_effect::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #13ADC6;
+    margin-top: 20px !important;
+    display:block;
+}
+/* industry Part Start */
+.industry .headline{
+    font-family: 'Ananda';
+    font-weight: 600;
+    font-size: 30pt;
+    color: #F3922B;
+    display: block;
+}
+
+.industry .sell-body .sub-head{
+    
+    
+    font-weight: 900;
+    font-size: 70pt;
+    line-height: 0.7;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #45B1B1;
+    z-index: 999999;
+    display: block;
+    position: relative;
+    top: -80px;
+    
+}
+.industry .sell-body .sub-head::after{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 2pt;
+    background-color: #F3922B;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+    
+}
+.industry .sell-body{
+    line-height: 0;
+    background-color: #F5F7F7;
+    border-radius: 20px;
+    
+    z-index: 9999;
+}
+
+.industry .sell-body p{
+    color: black;   
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Cairo';
+   
+    
+}
+
+
+
+/* Bestselling Pat End */
+
