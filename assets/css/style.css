@@ -460,7 +460,7 @@ a:hover{
 .after::after{
     content: '';
     position: absolute;
-    top: 50px;
+    top: -200px;
     transform:translateX(-50%) rotate(3deg);
     height: 90%;
     width: 2000%;
@@ -472,6 +472,7 @@ a:hover{
 /* Our Member end */
 /* social media */
 .social-media{
+    margin-top: 50px;
     background-color: #F5F7F7;
     
 }

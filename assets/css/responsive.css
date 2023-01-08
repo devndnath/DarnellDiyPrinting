@@ -1,3 +1,19 @@
+@media(min-width:1199px) and (max-width: 1326px){
+	.after::after{
+		content: '';
+		position: absolute;
+		top: -90px;
+		transform:translateX(-50%) rotate(3deg);
+		height: 90%;
+		width: 2000%;
+		background-color: #EEF8FA;
+	
+		
+		overflow-x: hidden !important;
+	}
+
+
+}
 @media(min-width:992px) and (max-width: 1199px){
 	body{
 		overflow-x: hidden;
@@ -51,13 +67,9 @@
 		
 	}
 	.after::after{
-		content: '';
-		position: absolute;
-		top: -50px;
-		transform:translateX(-50%) rotate(3deg);
-		height: 90%;
-		width: 2000%;
-		background-color: #EEF8FA;
+		
+		top: -120px;
+		
 	
 		
 		overflow-x: hidden !important;
@@ -456,6 +468,40 @@
 		display: none ;
 		
 	}
+	
+	.industry .headline{
+		
+		font-size: 18pt;
+		
+	}
+	.industry .sell-body .sub-head{
+    
+    
+		
+		line-height: 1;
+		font-size: 35pt;
+		
+		
+		
+	}
+	.middle{
+		display: none;
+	}
+	.industry .sell-body p{
+		text-align: center;
+		font-size: 13px;
+	   
+		
+	}
+	.industry .sell-body{
+		line-height: 0;
+		background-color: #F5F7F7;
+		border-radius: 20px;
+		
+		z-index: 9999;
+	}
+	
+	
 
 
 
